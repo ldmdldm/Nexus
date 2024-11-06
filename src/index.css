@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --neo-green: 0 229 153;
+    --neo-dark: 36 36 36;
+    --neo-blue: 0 0 51;
+    --neo-soft: 0 175 146;
+  }
+}
+
+@layer utilities {
+  .neo-gradient {
+    background: linear-gradient(135deg, rgb(var(--neo-green) / 0.1), rgb(var(--neo-soft) / 0.05));
+  }
+  
+  .glow {
+    box-shadow: 0 0 20px rgb(var(--neo-green) / 0.2);
+  }
+}
