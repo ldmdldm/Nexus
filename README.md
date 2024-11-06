@@ -11,32 +11,6 @@ Nexus is a decentralized restaking protocol built on Neo X, designed to provide 
 
 4) Offers lending and staking-as-a-service, providing users with multiple revenue-generation opportunities.
 
-  # Project Structure 
-
-  nexus/
-
-├── contracts/
-│   ├── core/
-│   ├── modules/
-│   └── interfaces/
-
-├── test/
-│   ├── unit/
-│   └── integration/
-
-├── scripts/
-│   └── deploy/
-
-├── frontend/
-│   ├── components/
-│   ├── hooks/
-│   └── pages/
-
-├── backend/
-│   ├── src/
-│   └── prisma/
-
-└── docs/
 
 # Getting Started
 *Prerequisites*
